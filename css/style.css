@@ -1,0 +1,122 @@
+body {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+span {
+    color: #006cfd !important;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+hr {
+    width: 50%;
+    margin: 25px auto;
+}
+
+.container {
+    max-width: 600px !important;
+    padding: 0 !important;
+    /* background-color: #b9b9b9; */
+}
+
+.reading-href {
+    color: rgb(0,108,251);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.main-block-image {
+    width: 600px;
+    position: relative;
+    display: block;
+}
+
+.main-block-text {
+    position: absolute;
+}
+
+.block-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.bloger-image {
+    width: 50%;
+    border-radius: 100% !important;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-position {
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    background-color: rgb(0,108,251);
+    border-color: rgb(0,108,251);
+    color: rgb(255,255,255) !important;
+    border: 2px solid;
+    border-radius: 111px;
+    padding: 5px 40px;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+}
+
+.btn:hover {
+    background-color: rgb(255,255,255);
+    border-color: rgb(0,108,251);
+    color: rgb(0,108,251) !important;
+}
+
+@media(max-width:768px) {
+    .for-large-screens {
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        top: 20px;
+        margin: 85px 15px;
+        text-shadow: 0 0 15px #000;
+    }
+}
+
+@media(min-width:769px) {
+    .for-small-screens {
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        top: 20px;
+        margin: 85px 15px;
+        text-shadow: 0 0 15px #000;
+    }
+}
